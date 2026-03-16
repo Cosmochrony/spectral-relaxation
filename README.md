@@ -17,48 +17,34 @@ threshold is governed by the **spectral connectivity of the relational graph**.
 
 The projective resolution at cascade rank \(n\)
 
-\[
-\Lambda_{\mathrm{proj}}(n)
-\]
+$\Lambda_{\mathrm{proj}}(n)$
 
-is determined by the global projective flux bound \(c_\chi(n)\).
+is determined by the global projective flux bound $c_\chi(n)$.
 
 Under the **projective coherence closure**
 
-\[
-c_\chi(n) \asymp h(G(n))
-\]
+$c_\chi(n) \asymp h(G(n))$
 
-where \(h(G)\) is the Cheeger constant of the relaxation graph, the
+where $h(G)$ is the Cheeger constant of the relaxation graph, the
 projective resolution satisfies
 
-\[
-\Lambda_{\mathrm{proj}}(n) \asymp h(G(n))^2 .
-\]
+$\Lambda_{\mathrm{proj}}(n) \asymp h(G(n))^2$.
 
 Using the Cheeger inequality
 
-\[
-\frac{\lambda_2(n)}{2} \le h(G(n)) \le \sqrt{2\lambda_2(n)}
-\]
+$\frac{\lambda_2(n)}{2} \le h(G(n)) \le \sqrt{2\lambda_2(n)}$
 
 this yields the spectral enclosure
 
-\[
-\lambda_2(n)^2 \lesssim \Lambda_{\mathrm{proj}}(n) \lesssim \lambda_2(n) .
-\]
+$\lambda_2(n)^2 \lesssim \Lambda_{\mathrm{proj}}(n) \lesssim \lambda_2(n)$.
 
 For expander families satisfying spectral–isoperimetric saturation,
 
-\[
-h(G(n))^2 \asymp \lambda_2(n),
-\]
+$h(G(n))^2 \asymp \lambda_2(n)$,
 
 the projective resolution follows the **linear spectral law**
 
-\[
-\Lambda_{\mathrm{proj}}(n) \asymp \lambda_2(n).
-\]
+$\Lambda_{\mathrm{proj}}(n) \asymp \lambda_2(n)$.
 
 Thus the maximal projectable eigenvalue is controlled by the
 **algebraic connectivity of the relaxation graph**.
@@ -70,9 +56,7 @@ introduces a family of **expander relaxation graphs**.
 
 The analysis focuses on the **Lubotzky–Phillips–Sarnak (LPS) Ramanujan graphs**
 
-\[
-X_{p,q} = \mathrm{Cayley}\!\left( PSL(2,\mathbb{F}_q), S_p \right)
-\]
+$X_{p,q} = \mathrm{Cayley}\!\left( PSL(2,\mathbb{F}_q), S_p \right)$
 
 which satisfy:
 
@@ -86,19 +70,15 @@ evolution of relational connectivity along the cascade.
 
 # Asymptotic Saturation
 
-For fixed prime \(p\), the algebraic connectivity of LPS graphs satisfies
+For fixed prime $p$, the algebraic connectivity of LPS graphs satisfies
 
-\[
-\lambda_2(n) \to \lambda_2^*(p)
-\]
+$\lambda_2(n) \to \lambda_2^*(p)$
 
 as the graph size increases.
 
 Consequently
 
-\[
-\Lambda_{\mathrm{proj}}(n) \to \Lambda_0(p)
-\]
+$\Lambda_{\mathrm{proj}}(n) \to \Lambda_0(p)$
 
 and the admissibility threshold becomes **asymptotically static**.
 
@@ -111,31 +91,22 @@ spectral count**.
 For large graphs the Laplacian spectrum follows the
 **Kesten–McKay distribution**
 
-\[
-\rho_{KM}(\lambda).
-\]
+$\rho_{KM}(\lambda)$.
 
 The cumulative spectral count satisfies
 
-\[
-N(\lambda;n) \sim F_{KM}(\lambda)\, n
-\]
+$N(\lambda;n) \sim F_{KM}(\lambda)\, n$
 
-where \(F_{KM}\) is the cumulative Kesten–McKay distribution.
+where $F_{KM}$ is the cumulative Kesten–McKay distribution.
 
 Stabilisation occurs when the number of projectable modes reaches the
 dimension of the corresponding representation block:
 
-\[
-N(\lambda_i;n) \sim k\,\dim\rho_i .
-\]
+$N(\lambda_i;n) \sim k\,\dim\rho_i$.
 
 This yields the mass relation
 
-\[
-M_i \propto
-\frac{F_{KM}(\lambda_i)}{\dim\rho_i}.
-\]
+$M_i \propto \frac{F_{KM}(\lambda_i)}{\dim\rho_i}$.
 
 # Limitation of the Single-Level Mechanism
 
@@ -152,7 +123,7 @@ Two limitations are identified:
 - insufficient amplification of mass ratios.
 
 These limitations arise from the **asymptotic constancy of the projective
-resolution** in the fixed-\(p\) model.
+resolution** in the fixed-$p$ model.
 
 # Conceptual Structure
 
@@ -194,11 +165,9 @@ relaxation graphs.
 
 If the graph degree grows along the cascade,
 
-\[
-p(n) \to \infty ,
-\]
+$p(n) \to \infty$,
 
-the Kesten–McKay support shrinks toward \( \lambda=1 \),
+the Kesten–McKay support shrinks toward $\lambda=1$,
 causing ADE spectral levels to leave the support in a
 rank-dependent order.
 
