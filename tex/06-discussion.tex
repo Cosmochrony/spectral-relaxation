@@ -83,13 +83,48 @@
 
     \medskip
     \noindent\textbf{(O1) Dynamical threshold via joint $p(n)$, $q$ variation.}
-    If $p$ grows with $n$, the Kesten--McKay support narrows and the ADE levels
-    eventually leave the support in a rank-dependent order, restoring a non-trivial
-    $\Lambda_{\mathrm{proj}}(n)$.
+
+    \begin{figure}[h]
+      \centering
+      \includegraphics[width=0.72\textwidth]{fig5_O1_support}
+      \caption{Kesten--McKay support edges $\lambda_\pm(p) = 1 \pm 2\sqrt{p}/(p+1)$
+        as functions of the prime $p$, with the three ADE eigenvalue levels of
+        $2I$ (ord-5, $|S|=24$) shown as horizontal dash-dotted lines.
+        As $p$ grows, the support \emph{narrows}: $\lambda_+ - \lambda_- =
+        4\sqrt{p}/(p+1) \to 0$.
+        The level $\lambda_3 = 5/4$ exits the support at $p = (4+\sqrt{15})^2 \approx 62$;
+        $\lambda_2 = 1$ never exits (it is the midpoint of the symmetric support);
+        $\lambda_1 = 5/6$ exits at $p = (6+\sqrt{35})^2 \approx 142$.}
+      \label{fig:O1-support}
+    \end{figure}
+
+    If $p$ grows with $n$ -- for instance $p(n) \sim n^\beta$ for some $\beta > 0$,
+    i.e.\ an effective increase of relational valence along the cascade -- then
+    $\lambda_2^*(p) = 1 - 2\sqrt{p}/(p+1) \to 1$ and the Kesten--McKay support
+    narrows with $n$.
     Such a joint scaling would correspond physically to an increase of the
     effective relational valence of the substrate along the cascade.
     This direction is the primary candidate for addressing both the ordering
     inversion and the amplitude problem simultaneously.
+
+    A notable structural consequence of this mechanism concerns the ordering
+    of stabilisation events.
+    As $p(n)$ grows, the support $[\lambda_-, \lambda_+]$ narrows symmetrically
+    around $\lambda = 1$.
+    Since the ADE levels are fixed at $\lambda_1 < 1 < \lambda_3$, the level
+    farthest from the centre exits the support first.
+    For $2I$ (ord-5), the exit order is $\lambda_3$ (at $p \approx 62$), then
+    $\lambda_1$ (at $p \approx 142$), while $\lambda_2 = 1$ never exits.
+    A level that exits the support is no longer admissible and stabilises at
+    the corresponding cascade rank; earlier exit therefore corresponds to higher
+    stabilisation mass.
+    The resulting mass ordering is $\mathcal{M}_3 > \mathcal{M}_1 >
+\mathcal{M}_2$, which for the physically relevant assignment
+    $\lambda_3 \leftrightarrow$ first generation restores the hierarchy
+    expected from the admissibility envelope of~\cite{Beau2026a4},
+    without any additional dynamical hypothesis.
+    This ordering result is a direct structural implication of the support
+    narrowing and is independent of the precise growth law $p(n)$.
 
     \medskip
     \noindent\textbf{(O2) Hierarchical cascade.}
