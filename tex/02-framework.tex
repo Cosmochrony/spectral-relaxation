@@ -1,0 +1,226 @@
+\section{Formal Framework}
+  \label{sec:framework}
+
+  \subsection{Notation and basic objects}
+    \label{sec:framework:notation}
+
+    Throughout this paper, $n \in \mathbb{N}_{>0}$ denotes the \emph{relaxation
+rank}, an integer-valued depth parameter indexing successive stages of the
+    cosmic relaxation cascade.
+    It is distinct from the cardinality of any group or graph.
+    The energy available at rank $n$ is
+    \begin{equation}
+      \label{eq:energy-rank}
+      E_n \;=\; \frac{E_{\mathrm{P}}}{n},
+    \end{equation}
+    where $E_{\mathrm{P}}$ is the Planck energy, in agreement with the cascade
+    scaling of~\cite{SpectralStratigraphy}.
+
+    Let $G(n)$ denote the \emph{effective relaxation graph} at rank $n$: a
+    connected, $d(n)$-regular, undirected graph encoding the relational substrate
+    at stage~$n$.
+    The vertex set is $V(n)$, the edge set $E(n)$, and the normalised graph
+    Laplacian is $L_{G(n)}$, with eigenvalues
+    $0 = \mu_0 < \mu_1 \leq \mu_2 \leq \cdots$.
+    The \emph{algebraic connectivity} (Fiedler value) of $G(n)$ is
+    \begin{equation}
+      \label{eq:fiedler}
+      \lambda_2(n) \;:=\; \mu_1\bigl(L_{G(n)}\bigr) \;>\; 0.
+    \end{equation}
+    The \emph{Cheeger constant} of $G(n)$ is
+    \begin{equation}
+      \label{eq:cheeger-def}
+      h\bigl(G(n)\bigr)
+      \;:=\;
+      \min_{\substack{S \subset V(n) \\ 0 < |S| \leq |V(n)|/2}}
+      \frac{|\partial S|}{|S|},
+    \end{equation}
+    where $\partial S$ is the set of edges with exactly one endpoint in $S$.
+
+  \subsection{Projective admissibility and flux bound}
+    \label{sec:framework:admissibility}
+
+    Following~\cite{SpectralAdmissibility, SpectralStratigraphy}, a spectral mode
+    of eigenvalue $\lambda$ is \emph{projectively admissible} at rank $n$ if the
+    maximal effective amplitude supported by the projective flux bound
+    $c_\chi(n) > 0$ satisfies
+    \begin{equation}
+      \label{eq:admissibility-envelope}
+      A^{\max}(\lambda, n)
+      \;:=\; \frac{c_\chi(n)}{\sqrt{\lambda}}
+      \;\geq\; A_{\min},
+    \end{equation}
+    where $A_{\min} > 0$ is a fixed scale independent of $n$.
+    The \emph{projective resolution} at rank $n$ is
+    \begin{equation}
+      \label{eq:Lambdaproj-def}
+      \Lambda_{\mathrm{proj}}(n)
+      \;:=\;
+      \sup\bigl\{\lambda > 0 : A^{\max}(\lambda,n) \geq A_{\min}\bigr\}
+      \;=\; \frac{c_\chi(n)^2}{A_{\min}^2}.
+    \end{equation}
+    All dependence of $\Lambda_{\mathrm{proj}}(n)$ on the relaxation rank is
+    carried entirely by $c_\chi(n)$.
+
+  \subsection{Structural hypotheses}
+    \label{sec:framework:hypotheses}
+
+    \begin{hypothesis}[Projective coherence closure]
+      \label{hyp:closure}
+      The global projective flux bound satisfies
+      \begin{equation}
+        \label{eq:cchi-h}
+        c_\chi(n) \;\asymp\; h\bigl(G(n)\bigr),
+      \end{equation}
+      with positive constants independent of~$n$.
+    \end{hypothesis}
+
+    \noindent
+    Hypothesis~\ref{hyp:closure} is a closure assumption: it identifies the
+    projective flux capacity with the isoperimetric capacity of the relaxation
+    graph.
+    It is not derived from the internal dynamics of $G(n)$ and must be treated as
+    an independent structural postulate.
+
+    \begin{hypothesis}[Spectral-isoperimetric saturation]
+      \label{hyp:saturation}
+      Along the relaxation trajectory,
+      \begin{equation}
+        \label{eq:saturation}
+        h\bigl(G(n)\bigr)^2 \;\asymp\; \lambda_2(n),
+      \end{equation}
+      with constants independent of~$n$.
+    \end{hypothesis}
+
+    \noindent
+    Hypothesis~\ref{hyp:saturation} holds when $G(n)$ belongs to a quasi-expander
+    family in which $h \asymp \sqrt{\lambda_2}$ up to bounded factors.
+    It is logically independent of Hypothesis~\ref{hyp:closure}.
+
+  \subsection{Main results}
+    \label{sec:framework:results}
+
+    \begin{proposition}[Projective resolution from isoperimetric capacity]
+      \label{prop:Lambda-h}
+      Under Hypothesis~\ref{hyp:closure},
+      \begin{equation}
+        \label{eq:Lambda-h2}
+        \Lambda_{\mathrm{proj}}(n) \;\asymp\; h\bigl(G(n)\bigr)^2.
+      \end{equation}
+    \end{proposition}
+
+    \begin{proof}
+      Immediate from~\eqref{eq:Lambdaproj-def} and~\eqref{eq:cchi-h}:
+      $\Lambda_{\mathrm{proj}}(n) = c_\chi(n)^2/A_{\min}^2
+      \asymp h(G(n))^2/A_{\min}^2$.
+    \end{proof}
+
+    \begin{corollary}[Cheeger enclosure for the projective resolution]
+      \label{cor:cheeger-enclosure}
+      For a $d(n)$-regular graph, the discrete Cheeger inequality~\cite{Chung1997}
+      \begin{equation}
+        \label{eq:cheeger-ineq}
+        \frac{\lambda_2(n)}{2} \;\leq\; h\bigl(G(n)\bigr) \;\leq\; \sqrt{2\,\lambda_2(n)}
+      \end{equation}
+      combined with Proposition~\ref{prop:Lambda-h} gives
+      \begin{equation}
+        \label{eq:Lambda-enclosure}
+        \frac{\lambda_2(n)^2}{4\,A_{\min}^2}
+        \;\lesssim\; \Lambda_{\mathrm{proj}}(n)
+        \;\lesssim\; \frac{2\,\lambda_2(n)}{A_{\min}^2}.
+      \end{equation}
+    \end{corollary}
+
+    \begin{remark}
+      The enclosure~\eqref{eq:Lambda-enclosure} is the sharpest consequence of
+      Cheeger's inequality alone.
+      The lower bound is quadratic and the upper bound is linear in $\lambda_2(n)$;
+      no further tightening is possible without additional hypotheses on $G(n)$.
+    \end{remark}
+
+    \begin{corollary}[Linear projective-resolution law]
+      \label{cor:linear-law}
+      Under Hypotheses~\ref{hyp:closure} and~\ref{hyp:saturation},
+      \begin{equation}
+        \label{eq:Lambda-linear}
+        \Lambda_{\mathrm{proj}}(n) \;\asymp\; \lambda_2(n).
+      \end{equation}
+    \end{corollary}
+
+    \begin{proof}
+      Combine Proposition~\ref{prop:Lambda-h} with Hypothesis~\ref{hyp:saturation}.
+    \end{proof}
+
+    \noindent
+    Its physical content is that the maximal projectable eigenvalue at rank $n$ is
+    controlled, up to bounded factors, by the algebraic connectivity of the
+    effective relaxation graph.
+
+  \subsection{Dynamic extension: spectral counting and stabilisation}
+    \label{sec:framework:dynamic}
+
+    \begin{definition}[Spectral counting function]
+      \label{def:counting}
+      \begin{equation}
+        \label{eq:counting-def}
+        N(\lambda; n)
+        \;:=\; \bigl|\bigl\{k : \lambda_k\bigl(G(n)\bigr) \leq \lambda\bigr\}\bigr|,
+      \end{equation}
+      where eigenvalues are counted with multiplicity.
+    \end{definition}
+
+    \begin{definition}[Projectable mode count]
+      \label{def:Nproj}
+      \begin{equation}
+        \label{eq:Nproj-def}
+        N_{\mathrm{proj}}(n)
+        \;:=\; N\bigl(\Lambda_{\mathrm{proj}};\, n\bigr).
+      \end{equation}
+    \end{definition}
+
+    \noindent
+    $\Lambda_{\mathrm{proj}}$ fixes the spectral support of projectable modes;
+    $N_{\mathrm{proj}}(n)$ counts how many such modes exist at rank $n$.
+    These are independent quantities: $\Lambda_{\mathrm{proj}}$ depends on
+    $c_\chi(n)$, while $N_{\mathrm{proj}}(n)$ depends on the spectral density of
+    $G(n)$.
+
+    \begin{hypothesis}[Representational saturation]
+      \label{hyp:saturation-rep}
+      A spectral mode at eigenvalue level $\lambda_i$ of the ADE relaxation graph
+      stabilises when its cumulative spectral count reaches the dimension of the
+      corresponding irreducible representation block:
+      \begin{equation}
+        \label{eq:saturation-condition}
+        M(\lambda_i) \;:=\; k\,\dim \rho_{\lambda_i},
+      \end{equation}
+      where $k \in \mathbb{N}_{>0}$ is a universal constant independent of $i$.
+    \end{hypothesis}
+
+    \begin{definition}[Stabilisation rank]
+      \label{def:nproj}
+      Under Hypothesis~\ref{hyp:saturation-rep},
+      \begin{equation}
+        \label{eq:nproj-def}
+        n_{\mathrm{proj}}(\lambda_i)
+        \;:=\; \inf\bigl\{n \in \mathbb{N}_{>0} :
+        \lambda_i \leq \Lambda_{\mathrm{proj}}
+        \;\text{ and }\;
+        N(\lambda_i;\, n) \geq k\,\dim\rho_{\lambda_i}
+        \bigr\}.
+      \end{equation}
+      The effective stabilisation mass is
+      \begin{equation}
+        \label{eq:mass-def}
+        \mathcal{M}_i \;\propto\; \frac{E_{\mathrm{P}}}{n_{\mathrm{proj}}(\lambda_i)}.
+      \end{equation}
+    \end{definition}
+
+    \begin{remark}[Separation of roles]
+  The condition $\lambda_i \leq \Lambda_{\mathrm{proj}}$ is a support condition
+  governing which modes can stabilise; $N(\lambda_i; n) \geq k\,\dim\rho_{\lambda_i}$
+  is a saturation condition governing at which rank.
+  When $\Lambda_{\mathrm{proj}}$ is asymptotically constant, the support
+  condition reduces to a fixed constraint and all dynamics arises from the
+  saturation condition.
+    \end{remark}

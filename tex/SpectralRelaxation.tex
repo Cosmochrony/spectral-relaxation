@@ -1,0 +1,67 @@
+% SpectralRelaxation 1.0
+% Spectral Relaxation and Projective Mode Saturation
+% J. Beau -- Cosmochrony / Bounded Admissibility Theory
+
+
+\documentclass[12pt, a4paper]{article}
+
+% --- packages ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+
+% --- theorem environments ---
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{hypothesis}{Hypothesis}[section]
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[section]
+
+% --- title ---
+\title{Spectral Relaxation and Projective Mode Saturation}
+
+\author{J\'er\^ome Beau\\[4pt]
+\small Independent Researcher, Cosmochrony Project\\
+\small \texttt{contact@cosmochrony.org}}
+
+\date{\today}
+
+
+\begin{document}
+
+  \maketitle
+
+  \begin{abstract}
+    \input{abstract}
+  \end{abstract}
+
+  \clearpage
+  \tableofcontents
+  \newpage
+
+  \clearpage
+  \input{01-intro}
+  \input{02-framework}
+  \input{03-model}
+  \input{04-spectral}
+  \input{05-amplification}
+  \input{06-discussion}
+  \input{07-conclusion}
+
+  \begin{thebibliography}{99}
+    \input{bib}
+  \end{thebibliography}
+
+\end{document}

@@ -1,0 +1,95 @@
+\section{Choice of a Relaxation-Graph Model}
+  \label{sec:model}
+
+  \subsection{Requirements on the relaxation graphs}
+    \label{sec:model:requirements}
+
+    The following properties are necessary for a family $\{G(n)\}_{n \geq 1}$ to
+    be consistent with the projective relaxation picture.
+
+    \medskip
+    \noindent\textbf{(R1) Vertex-transitivity.}
+    The projection must not privilege any node; $G(n)$ must be vertex-transitive
+    or quasi-homogeneous, so that $\lambda_2(n)$ is a well-defined global quantity.
+
+    \medskip
+    \noindent\textbf{(R2) Bounded degree.}
+    The local relational flux capacity is finite, so $d(n)$ must remain bounded
+    (or grow at most logarithmically) along the cascade.
+
+    \medskip
+    \noindent\textbf{(R3) Non-vanishing algebraic connectivity.}
+    $\lambda_2(n) > 0$ must hold for all $n$, ensuring a coherent global
+    projection.
+
+    \medskip
+    \noindent\textbf{(R4) Controlled spectral gap.}
+    $\lambda_2(n)$ must admit explicit analytic lower bounds.
+
+    \medskip
+    \noindent\textbf{(R5) Constructibility as an explicit sequence.}
+    The family must admit an explicit indexing compatible with the relaxation rank
+    $n$.
+
+  \subsection{Candidate families and selection of LPS graphs}
+    \label{sec:model:candidates}
+
+    Random regular graphs satisfy (R1)--(R4) only in probability and not
+    constructively, failing (R5).
+    Cayley graphs of finite groups satisfy (R1) and (R4) for families with
+    controlled character sums, but generic sequences need not satisfy (R3).
+    Explicit expander families satisfy all five requirements by construction.
+    Among expanders, \emph{near-Ramanujan} families are optimal: the Alon--Boppana
+    theorem~\cite{Alon1986} bounds $\lambda_2 \leq 1 - 2\sqrt{d-1}/d + o(1)$, and
+    Ramanujan graphs achieve this bound exactly.
+
+    The Lubotzky--Phillips--Sarnak (LPS) construction~\cite{LPS1988} provides the
+    only currently known explicit infinite families of Ramanujan graphs, and is
+    the natural canonical choice satisfying all five requirements.
+
+  \subsection{LPS graphs}
+    \label{sec:model:lps}
+
+    Let $p$ and $q$ be distinct odd primes, both congruent to $1 \pmod{4}$.
+    The LPS graph $X^{p,q}$ is a $(p+1)$-regular Cayley graph on
+    $\mathrm{PSL}(2, \mathbb{F}_q)$, with
+    \begin{equation}
+      \label{eq:lps-order}
+      \bigl|V(X^{p,q})\bigr|
+      \;=\; \tfrac{1}{2}\,q(q^2 - 1).
+    \end{equation}
+    The Ramanujan property gives, for the normalised Laplacian,
+    \begin{equation}
+      \label{eq:ramanujan-laplacian}
+      \lambda_2\bigl(X^{p,q}\bigr)
+      \;\geq\; 1 - \frac{2\sqrt{p}}{p+1},
+    \end{equation}
+    uniformly in $q$.
+    All five requirements (R1)--(R5) are satisfied.
+
+    \begin{remark}[Laplacian normalisation]
+  Throughout this paper, $L_G = I - A/d$ denotes the normalised graph
+  Laplacian, with eigenvalues in $[0,2]$.
+  The Cheeger inequality~\eqref{eq:cheeger-ineq} and the Ramanujan
+  bound~\eqref{eq:ramanujan-laplacian} use this convention consistently.
+    \end{remark}
+
+  \subsection{Identification of the relaxation index}
+    \label{sec:model:index}
+
+    The physical identification is
+    \begin{equation}
+      \label{eq:index-id}
+      n \;\sim\; \bigl|V\bigl(G(n)\bigr)\bigr|,
+    \end{equation}
+    interpreting the cascade depth as proportional to the number of active
+    relational nodes.
+    For the LPS family at fixed $p$,
+    \begin{equation}
+      \label{eq:index-lps}
+      n \;\sim\; \tfrac{1}{2}\,q(q^2 - 1) \;\sim\; q^3/2
+      \qquad (q \to \infty),
+    \end{equation}
+    so $q \sim (2n)^{1/3}$.
+    Alternative identifications ($n \sim |E(G(n))|$, $n \sim \log|V|$) are
+    discussed in Section~\ref{sec:discussion}.
