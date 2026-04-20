@@ -4,9 +4,8 @@
   \subsection{Notation and basic objects}
     \label{sec:framework:notation}
 
-    Throughout this paper, $n \in \mathbb{N}_{>0}$ denotes the \emph{relaxation
-rank}, an integer-valued depth parameter indexing successive stages of the
-    cosmic relaxation cascade.
+    Throughout this paper, $n \in \mathbb{N}_{>0}$ denotes the \emph{cascade rank},
+    an integer-valued depth parameter indexing successive stages of the projective cascade.
     It is distinct from the cardinality of any group or graph.
     The energy available at rank $n$ is
     \begin{equation}
@@ -16,7 +15,7 @@ rank}, an integer-valued depth parameter indexing successive stages of the
     where $E_{\mathrm{P}}$ is the Planck energy, in agreement with the cascade
     scaling of~\cite{Beau2026a4}.
 
-    Let $G(n)$ denote the \emph{effective relaxation graph} at rank $n$: a
+    Let $G(n)$ denote the \emph{effective cascade graph} at rank $n$: a
     connected, $d(n)$-regular, undirected graph encoding the relational substrate
     at stage~$n$.
     The vertex set is $V(n)$, the edge set $E(n)$, and the normalised graph
@@ -59,7 +58,7 @@ rank}, an integer-valued depth parameter indexing successive stages of the
       \sup\bigl\{\lambda > 0 : A^{\max}(\lambda,n) \geq A_{\min}\bigr\}
       \;=\; \frac{c_\chi(n)^2}{A_{\min}^2}.
     \end{equation}
-    All dependence of $\Lambda_{\mathrm{proj}}(n)$ on the relaxation rank is
+    All dependence of $\Lambda_{\mathrm{proj}}(n)$ on the cascade rank is
     carried entirely by $c_\chi(n)$.
 
   \subsection{Structural hypotheses}
@@ -77,14 +76,13 @@ rank}, an integer-valued depth parameter indexing successive stages of the
 
     \noindent
     Hypothesis~\ref{hyp:closure} is a closure assumption: it identifies the
-    projective flux capacity with the isoperimetric capacity of the relaxation
-    graph.
+    projective flux capacity with the isoperimetric capacity of the cascade graph.
     It is not derived from the internal dynamics of $G(n)$ and must be treated as
     an independent structural postulate.
 
     \begin{hypothesis}[Spectral-isoperimetric saturation]
       \label{hyp:saturation}
-      Along the relaxation trajectory,
+      Along the cascade trajectory,
       \begin{equation}
         \label{eq:saturation}
         h\bigl(G(n)\bigr)^2 \;\asymp\; \lambda_2(n),
@@ -154,7 +152,7 @@ rank}, an integer-valued depth parameter indexing successive stages of the
     \noindent
     Its physical content is that the maximal projectable eigenvalue at rank $n$ is
     controlled, up to bounded factors, by the algebraic connectivity of the
-    effective relaxation graph.
+    effective cascade graph.
 
   \subsection{Dynamic extension: spectral counting and stabilisation}
     \label{sec:framework:dynamic}
@@ -187,7 +185,7 @@ rank}, an integer-valued depth parameter indexing successive stages of the
 
     \begin{hypothesis}[Representational saturation]
       \label{hyp:saturation-rep}
-      A spectral mode at eigenvalue level $\lambda_i$ of the ADE relaxation graph
+      A spectral mode at eigenvalue level $\lambda_i$ of the ADE substrate graph
       stabilises when its cumulative spectral count reaches the dimension of the
       corresponding irreducible representation block:
       \begin{equation}

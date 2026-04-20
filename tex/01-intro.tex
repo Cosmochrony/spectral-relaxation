@@ -5,7 +5,7 @@
     \label{sec:intro:problem}
 
     The Bounded Admissibility framework~\cite{Cosmochrony} associates to each
-    relaxation rank $n$ an energy scale $E_n = E_{\mathrm{P}}/n$ and a spectral
+    cascade rank $n$ an energy scale $E_n = E_{\mathrm{P}}/n$ and a spectral
     admissibility condition: a mode of eigenvalue $\lambda$ is projectable at rank
     $n$ if and only if $\lambda \leq \Lambda_{\mathrm{proj}}(n)$, where
     $\Lambda_{\mathrm{proj}}(n)$ is the projective resolution at that stage of the
@@ -80,7 +80,7 @@ of~\cite{Beau2026a4}).}
     rapidly growing function $\Lambda_{\mathrm{proj}}(n)$.
 
     The missing ingredient is therefore precisely the \emph{growth law} of
-    $\Lambda_{\mathrm{proj}}(n)$ along the relaxation trajectory.
+    $\Lambda_{\mathrm{proj}}(n)$ along the cascade trajectory.
     This law must be derived from within the framework, not imposed as an external
     ansatz: the no-go result rules out scalar power-law calibrations, and any
     other ad hoc choice would undermine the predictive content of the stratigraphy.
@@ -89,7 +89,12 @@ of~\cite{Beau2026a4}).}
     \label{sec:intro:aim}
 
     This paper proposes a derivation of $\Lambda_{\mathrm{proj}}(n)$ grounded in
-    the global coherence properties of the relaxation graph $G(n)$.
+    the global coherence properties of the cascade graph $G(n)$.
+    The growth of $G(n)$ with~$n$ --- in the sense that $|V(G(n))| \sim n$ ---
+    encodes the progressive unfolding of the observable algebra along the projective
+    cascade: at each cascade rank the effective graph $G(n)$ represents the relational
+    structure accessible to the projection~$\Pi$ at that depth, and its isoperimetric
+    capacity controls which spectral modes of the substrate are projectively admissible.
 
     The key observation is that $\Lambda_{\mathrm{proj}}(n)$ is entirely controlled
     by the global projective flux bound $c_\chi(n)$:
@@ -97,7 +102,7 @@ of~\cite{Beau2026a4}).}
       \Lambda_{\mathrm{proj}}(n) = \frac{c_\chi(n)^2}{A_{\min}^2}.
     \]
     The dynamical question reduces to: \emph{how does $c_\chi(n)$ depend on the
-relaxation rank?}
+cascade rank?}
     We argue that $c_\chi(n)$ is bounded by the isoperimetric capacity of $G(n)$,
     measured by the Cheeger constant $h(G(n))$, which is in turn controlled by the
     algebraic connectivity $\lambda_2(n)$ via the discrete Cheeger inequality.
@@ -127,15 +132,14 @@ relaxation rank?}
       $\Lambda_{\mathrm{proj}}(n) \asymp \lambda_2(n)$ under both hypotheses.
     \end{itemize}
     The programmatic consequence is that the problem of inter-generation mass ratios
-    reduces to the problem of computing $\lambda_2(n)$ along the relaxation
-    trajectory.
+    reduces to the problem of computing $\lambda_2(n)$ along the cascade trajectory.
 
   \subsection{Structure of the paper}
     \label{sec:intro:structure}
 
     Section~\ref{sec:framework} establishes the formal framework.
     Section~\ref{sec:model} introduces the LPS graph model and identifies the
-    relaxation index.
+    cascade index.
     Section~\ref{sec:spectral} analyses the spectral behaviour of LPS graphs and
     derives the growth law for $N(\lambda; n)$.
     Section~\ref{sec:amplification} evaluates the predicted mass ratios numerically.
