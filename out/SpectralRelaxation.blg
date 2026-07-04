@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SpectralRelaxation.aux
+The style file: plain.bst
+Database file #1: cosmochrony-bibliography.bib
+Database file #2: external-refs.bib
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            579 strings with 7058 characters,
+and the built_in function-call counts, 3179 in all, are:
+= -- 313
+> -- 102
+< -- 0
++ -- 43
+- -- 30
+* -- 153
+:= -- 543
+add.period$ -- 40
+call.type$ -- 13
+change.case$ -- 53
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 116
+empty$ -- 304
+format.name$ -- 30
+if$ -- 669
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 7
+newline$ -- 69
+num.names$ -- 26
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 41
+quote$ -- 0
+skip$ -- 89
+stack$ -- 0
+substring$ -- 177
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 50
+warning$ -- 0
+while$ -- 35
+width$ -- 15
+write$ -- 140
