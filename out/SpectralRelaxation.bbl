@@ -1,0 +1,94 @@
+\begin{thebibliography}{10}
+
+\bibitem{Alon1986}
+N.~Alon.
+\newblock {Eigenvalues and the diameter of graphs}.
+\newblock {\em Linear and Multilinear Algebra}, 18:83--90, 1986.
+\newblock The lower bound $\lambda_2 \leq 2\sqrt{d-1} + o(1)$ is commonly
+  attributed to Alon--Boppana; the version cited here is due to Alon (1986)
+  with the complementary observation by R.~Boppana (unpublished, 1987).
+
+\bibitem{Beau2026m}
+J.~Beau.
+\newblock {Admissible Non-Injective Transitions as the Primitive of Physical
+  Description}, 2026.
+\newblock Cosmochrony Foundation Paper "M", \doi{10.5281/zenodo.19616329}.
+
+\bibitem{Cosmochrony}
+J.~Beau.
+\newblock {Cosmochrony: A Non-Injective Projection Theory of Emergent Physics},
+  2026.
+\newblock original white paper, \doi{10.5281/zenodo.17957509}.
+
+\bibitem{Beau2026a1}
+J.~Beau.
+\newblock {Spectral Admissibility under Bounded Flux: Non-Abelian Mode
+  Selection on Cayley Graphs of SU(2) Subgroups}, 2026.
+\newblock Step A of Cosmochrony Spectral Admissibility sub-Program,
+  \doi{10.5281/zenodo.18944985}.
+
+\bibitem{Beau2026a29}
+J.~Beau.
+\newblock {Systematic Pair-Level Campaign for $\delta_{\mathrm{pair}}$:
+  Convergence, Inter-Pair Concentration, and Normalization Structure}, 2026.
+\newblock O25 paper, \doi{10.5281/zenodo.19462132}.
+
+\bibitem{Beau2026a4}
+J.~Beau.
+\newblock {Three Particle Generations and Mass Hierarchy from Spectral
+  Stratigraphy}, 2026.
+\newblock Spectral admissibility sub-program paper,
+  \doi{10.5281/zenodo.19040490}.
+
+\bibitem{Beau2026a28}
+J.~Beau.
+\newblock {Vertical Non-Injectivity and the Stability of the Observable Rank:
+  Closing the Unconditional Transfer $c_\chi \to \delta_{\mathrm{pair}} \to
+  \beta^*$}, 2026.
+\newblock O24 spectral admissibility subprogram "O24" paper,
+  \doi{10.5281/zenodo.19386580}.
+
+\bibitem{Beau2026tb}
+J\'er\^ome Beau.
+\newblock {Projective Trajectory Branching and the de Sitter Limit}, 2026.
+\newblock Result note: the LPS $\to$ Heisenberg transfer relocates exponential
+  growth from endpoint volumes (polynomial, Bass--Guivarc'h degree 4) to
+  projectively distinguishable histories. Endpoint-based distinguishability
+  (D1--D3) provably collapses; the canonical O12-compatible residual channel is
+  $b$-only (the central charge is unconditionally erased from mono-path norms)
+  and its distinguishable-history count is the Pell count
+  $N(n)=2N(n-1)+N(n-2)$, rate $h_b=\log(1+\sqrt2)$, proved for a generic probe
+  and witnessed exactly at $q=211$. Structural bridge from the admissibility
+  cascade to a de Sitter-like component independent of matter content; the
+  full-history Gabor channel keeps a projective-compression profile as the open
+  candidate for an evolving effective equation of state.
+  \doi{10.5281/zenodo.21197757}.
+
+\bibitem{Chung1997}
+F.~R.~K. Chung.
+\newblock {\em {Spectral Graph Theory}}.
+\newblock American Mathematical Society, Providence, RI, 1997.
+
+\bibitem{DESI2025}
+{DESI Collaboration}.
+\newblock {{DESI} {DR2} Results. {II}. Measurements of Baryon Acoustic
+  Oscillations and Cosmological Constraints}.
+\newblock {\em Phys. Rev. D}, 112:083515, 2025.
+
+\bibitem{Kesten1959}
+H.~Kesten.
+\newblock {Symmetric random walks on groups}.
+\newblock {\em Transactions of the American Mathematical Society}, 92:336--354,
+  1959.
+
+\bibitem{LPS1988}
+A.~Lubotzky, R.~Phillips, and P.~Sarnak.
+\newblock {Ramanujan graphs}.
+\newblock {\em Combinatorica}, 8:261--277, 1988.
+
+\bibitem{McKay1981}
+B.~D. McKay.
+\newblock {The expected eigenvalue distribution of a large regular graph}.
+\newblock {\em Linear Algebra and its Applications}, 40:203--216, 1981.
+
+\end{thebibliography}
