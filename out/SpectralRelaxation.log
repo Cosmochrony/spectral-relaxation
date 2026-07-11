@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  4 JUL 2026 23:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  11 JUL 2026 16:24
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **tex/SpectralRelaxation.tex
 (./tex/SpectralRelaxation.tex
@@ -547,39 +546,38 @@ Package rerunfilecheck Info: File `SpectralRelaxation.out' has not changed.
 Here is how much of TeX's memory you used:
  11053 strings out of 480247
  168318 string characters out of 5896152
- 473626 words of memory out of 5000000
+ 474626 words of memory out of 5000000
  28716 multiletter control sequences out of 15000+600000
  489241 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,10n,63p,691b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
- </sessions/magical-beautiful-cori/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/tcrm1200.600pk> </sessions/magical-beautiful-cori/.texlive2021/texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </sessions/magical-beautiful-cor
-i/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </sessions
-/magical-beautiful-cori/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
-1200.600pk> </sessions/magical-beautiful-cori/.texlive2021/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecbx1728.600pk> </sessions/magical-beautiful-cori/.texlive202
-1/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </sessions/magical-beau
-tiful-cori/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <
-/sessions/magical-beautiful-cori/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ectt1095.600pk> </sessions/magical-beautiful-cori/.texlive2021/texmf-var/f
-onts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </sessions/magical-beautiful-cori/.t
-exlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </sessions/mag
-ical-beautiful-cori/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074
-.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb>
-Output written on out/SpectralRelaxation.pdf (18 pages, 407646 bytes).
+ </sessions/ecstatic-gifted-cray/.texlive2021/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/tcrm1200.600pk> </sessions/ecstatic-gifted-cray/.texlive2021/texmf-var/f
+onts/pk/ljfour/jknappen/ec/ecti1200.600pk> </sessions/ecstatic-gifted-cray/.tex
+live2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </sessions/ecsta
+tic-gifted-cray/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600
+pk> </sessions/ecstatic-gifted-cray/.texlive2021/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecbx1728.600pk> </sessions/ecstatic-gifted-cray/.texlive2021/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </sessions/ecstatic-gifted-cray/.te
+xlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </sessions/ecst
+atic-gifted-cray/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.60
+0pk> </sessions/ecstatic-gifted-cray/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1095.600pk> </sessions/ecstatic-gifted-cray/.texlive2021/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </sessions/ecstatic-gifted-cray/.t
+exlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on out/SpectralRelaxation.pdf (18 pages, 407845 bytes).
 PDF statistics:
  1144 PDF objects out of 1200 (max. 8388607)
  536 compressed objects within 6 object streams
