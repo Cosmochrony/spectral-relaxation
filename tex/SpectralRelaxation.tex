@@ -198,20 +198,20 @@ Spectral Growth along the Projective Cascade}
       capacity controls which spectral modes of the substrate are projectively admissible.
 
       The key observation is that $\Lambda_{\mathrm{proj}}(n)$ is entirely controlled
-      by the global projective flux bound $c_\chi(n)$:
+      by the global projective flux bound $c_{\mathrm{BI}}(n)$:
       \[
-        \Lambda_{\mathrm{proj}}(n) = \frac{c_\chi(n)^2}{A_{\min}^2}.
+        \Lambda_{\mathrm{proj}}(n) = \frac{c_{\mathrm{BI}}(n)^2}{A_{\min}^2}.
       \]
-      The dynamical question reduces to: \emph{how does $c_\chi(n)$ depend on the
+      The dynamical question reduces to: \emph{how does $c_{\mathrm{BI}}(n)$ depend on the
   cascade rank?}
-      We argue that $c_\chi(n)$ is bounded by the isoperimetric capacity of $G(n)$,
+      We argue that $c_{\mathrm{BI}}(n)$ is bounded by the isoperimetric capacity of $G(n)$,
       measured by the Cheeger constant $h(G(n))$, which is in turn controlled by the
       algebraic connectivity $\lambda_2(n)$ via the discrete Cheeger inequality.
 
       The logical chain of the derivation is:
       \[
         \text{global coherence}
-        \;\longrightarrow\; c_\chi(n)
+        \;\longrightarrow\; c_{\mathrm{BI}}(n)
         \;\longrightarrow\; h\bigl(G(n)\bigr)
         \;\longrightarrow\; \lambda_2(n)
         \;\longrightarrow\; \Lambda_{\mathrm{proj}}(n).
@@ -338,11 +338,11 @@ Spectral Growth along the Projective Cascade}
       Following~\cite{Beau2026a1, Beau2026a4}, a spectral mode
       of eigenvalue $\lambda$ is \emph{projectively admissible} at rank $n$ if the
       maximal effective amplitude supported by the projective flux bound
-      $c_\chi(n) > 0$ satisfies
+      $c_{\mathrm{BI}}(n) > 0$ satisfies
       \begin{equation}
         \label{eq:admissibility-envelope}
         A^{\max}(\lambda, n)
-        \;:=\; \frac{c_\chi(n)}{\sqrt{\lambda}}
+        \;:=\; \frac{c_{\mathrm{BI}}(n)}{\sqrt{\lambda}}
         \;\geq\; A_{\min},
       \end{equation}
       where $A_{\min} > 0$ is a fixed scale independent of $n$.
@@ -352,10 +352,10 @@ Spectral Growth along the Projective Cascade}
         \Lambda_{\mathrm{proj}}(n)
         \;:=\;
         \sup\bigl\{\lambda > 0 : A^{\max}(\lambda,n) \geq A_{\min}\bigr\}
-        \;=\; \frac{c_\chi(n)^2}{A_{\min}^2}.
+        \;=\; \frac{c_{\mathrm{BI}}(n)^2}{A_{\min}^2}.
       \end{equation}
       All dependence of $\Lambda_{\mathrm{proj}}(n)$ on the cascade rank is
-      carried entirely by $c_\chi(n)$.
+      carried entirely by $c_{\mathrm{BI}}(n)$.
 
     \subsection{Structural hypotheses}
       \label{sec:framework:hypotheses}
@@ -365,7 +365,7 @@ Spectral Growth along the Projective Cascade}
         The global projective flux bound satisfies
         \begin{equation}
           \label{eq:cchi-h}
-          c_\chi(n) \;\asymp\; h\bigl(G(n)\bigr),
+          c_{\mathrm{BI}}(n) \;\asymp\; h\bigl(G(n)\bigr),
         \end{equation}
         with positive constants independent of~$n$.
       \end{hypothesis}
@@ -405,7 +405,7 @@ Spectral Growth along the Projective Cascade}
 
       \begin{proof}
         Immediate from~\eqref{eq:Lambdaproj-def} and~\eqref{eq:cchi-h}:
-        $\Lambda_{\mathrm{proj}}(n) = c_\chi(n)^2/A_{\min}^2
+        $\Lambda_{\mathrm{proj}}(n) = c_{\mathrm{BI}}(n)^2/A_{\min}^2
         \asymp h(G(n))^2/A_{\min}^2$.
       \end{proof}
 
@@ -476,7 +476,7 @@ Spectral Growth along the Projective Cascade}
       $\Lambda_{\mathrm{proj}}$ fixes the spectral support of projectable modes;
       $N_{\mathrm{proj}}(n)$ counts how many such modes exist at rank $n$.
       These are independent quantities: $\Lambda_{\mathrm{proj}}$ depends on
-      $c_\chi(n)$, while $N_{\mathrm{proj}}(n)$ depends on the spectral density of
+      $c_{\mathrm{BI}}(n)$, while $N_{\mathrm{proj}}(n)$ depends on the spectral density of
       $G(n)$.
 
       \begin{hypothesis}[Representational saturation]
@@ -894,7 +894,7 @@ Spectral Growth along the Projective Cascade}
     \subsection{Status of the structural hypotheses}
       \label{sec:disc:hypotheses}
 
-      \textbf{Hypothesis~\ref{hyp:closure}} identifies $c_\chi(n)$ with the
+      \textbf{Hypothesis~\ref{hyp:closure}} identifies $c_{\mathrm{BI}}(n)$ with the
       isoperimetric capacity $h(G(n))$.
       It is the foundational physical postulate and currently lacks a derivation
       from the Cosmochrony axioms.
@@ -1100,7 +1100,7 @@ Spectral Growth along the Projective Cascade}
     because it provides a dynamical $\sigma_{\mathrm{pair}}(n)$ that decays rather
     than saturates.
     The derivation of the mass hierarchy rests on the O-series transfer chain
-    $c_\chi \to \delta_{\mathrm{pair}} \to \beta^*$~\cite{Beau2026a28,Beau2026a29};
+    $c_{\mathrm{BI}} \to \delta_{\mathrm{pair}} \to \beta^*$~\cite{Beau2026a28,Beau2026a29};
     the present results identify the structural obstacle and the open direction that the
     O-series addresses.
     The companion paper~\cite{Beau2026a4} established that the

@@ -19,11 +19,11 @@ The projective resolution at cascade rank \(n\)
 
 $\Lambda_{\mathrm{proj}}(n)$
 
-is determined by the global projective flux bound $c_\chi(n)$.
+is determined by the global projective flux bound $c_{\mathrm{BI}}(n)$.
 
 Under the **projective coherence closure**
 
-$c_\chi(n) \asymp h(G(n))$
+$c_{\mathrm{BI}}(n) \asymp h(G(n))$
 
 where $h(G)$ is the Cheeger constant of the relaxation graph, the
 projective resolution satisfies
