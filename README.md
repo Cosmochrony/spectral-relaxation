@@ -1,5 +1,5 @@
 This repository contains the source of the **Spectral Relaxation** Cosmochrony paper  
-[*Asymptotic Saturation of Projective Resolution: Expander Relaxation Graphs*](out/SpectralRelaxation.pdf).
+*Asymptotic Saturation of Projective Resolution: Expander Relaxation Graphs*.
 
 This work extends the **spectral admissibility programme** by deriving a
 dynamical law for the **projective resolution** governing the accessibility
